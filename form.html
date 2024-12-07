@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/contact-me" method="post">
+       
+        <label for="name">  Enter Name: </label> <input type="text" id="name" name="name" placeholder="username"  >
+          <br>
+        <label for="username">  Enter username:</label> <input type="text"  id="username " name="username" value="manish" ><br>  
+       <label for="name">Enter Password:  </label><input type="password" name="password" required="true"> <br>
+       <label for="phone">PHONE:</label><input type="tel" name="phone" required="true"><br>
+       <label for="email">Email:</label><input type="email" name="email" required="true"><br>
+
+       DOB:<input type="date" id="dob"value="20001-1-1" min="2001-01-01" max="2025-01-01"><br> 
+       <!-- other inpur types in date=month,time,datetime-local, -->
+
+       choose file <input type="file"><br>
+       color: <input type="color"><br>
+      price range: <input type="range" ><br>
+      custom button <input type="button" value="click me"><br>
+      age: <input type="number" id="age" value="20" min="18" max="60" required><br>
+      search:<input type="search" name="query" id="search"><br>
+      URL:<input type="url" name="url" placeholder="https://wwww.manish.com"><br>
+
+      
+      <!-- other type ; image: src, week:value ,reset -->
+
+
+      <label for="male">  male: </label>        <input type="radio" id="male" name="gender"><br>
+      <label for="female">  female: </label>    <input type="radio" id="female" name="gender"><br>
+      <label for="other">  others: </label>     <input type="radio" id="other" name="gender"><br>
+
+
+      <label for="country">select country</label>
+    <select id="country" name="country">
+        <option value="india">india</option>
+        <option value="abc">abc</option>
+        <option value="fcd">fcd</option>
+        <option value="bangla">bangla</option>
+        <option value="india">india</option>
+        <option value="usa">usa</option>
+    </select>
+    <br>
+
+    <textarea name="story"id="story" rows="4"cols="20">default text</textarea><br>
+       <input type="submit" value="Submit">
+    </form>
+    
+</body>
+</html>

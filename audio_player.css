@@ -1,0 +1,41 @@
+.body{
+    background-color: aqua;
+}
+.Container{
+    width: 40%;
+    height: 500px;
+    margin: 10px auto;
+    background-color: white;
+    padding: 10px;
+}
+
+.music{
+    width: 60%;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: red;
+    padding: 20px;
+}
+
+.music img{
+    width: 100%;
+    margin: 10px auto;
+}
+.links{
+    text-align: center;
+    margin: 20px 0px;
+}
+.links a{
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    color: black;
+}
+
+.links a:hover{
+    background-color: black;
+    color: white;
+}
